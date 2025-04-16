@@ -33,7 +33,10 @@ function displayPasswords() {
     randomPassword2 = ""
 }
 
+function copyPassword1() {
+   navigator.clipboard.writeText(password1.textContent)
+}
 
-
-
-
+function copyPassword2() {
+    navigator.clipboard.writeText(password2.textContent)
+}
