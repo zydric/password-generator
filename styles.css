@@ -1,0 +1,100 @@
+:root {
+    --background-clr: #1C1C1C;
+    --card-clr: #1F2937;
+    --accent-clr: #4ADF86;
+    --subheading-clr: #D5D4D8;
+
+    --password-clr: #55F991;
+    --password-background-clr: #273549;
+
+    --btn-clr: #10B981;
+    --btn-hover-clr: #0ea472;
+    --btn-clicked-clr: #0c825b;
+    --line-clr: #2F3E53;
+
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-clr);
+    font-family: "Karla", sans-serif;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+
+.card {
+    background-color: var(--card-clr);
+    padding: 3.2rem;
+}
+
+/* HEADER */
+
+.heading {
+    margin-top: 3rem;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.heading span {
+    color: var(--accent-clr);
+}
+
+.subheading {
+    margin-top: -1rem;
+    color: var(--subheading-clr);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* GENERATE PASSWORD BUTTON */
+.btn {
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    background-color: var(--btn-clr);
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover-clr);
+    transition: 0.2s ease-in-out;
+}
+
+.btn:active {
+    background-color: var(--btn-clicked-clr);
+    transition: none;
+}
+
+
+/* PASSWORDS */
+.passwords {
+    border-top: 1px solid var(--line-clr);
+    margin: 2rem 0 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.passwords .password {
+    margin-top: 2rem;
+    background-color: var(--password-background-clr);
+    width: 211px;
+    border-radius: 6px;
+    padding: 10px 8px;
+    text-align: center;
+    color: var(--password-clr);
+}
+
+
+
