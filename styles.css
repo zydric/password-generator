@@ -102,6 +102,9 @@ body {
 
 .passwords .password p {
     flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .passwords .password svg {
